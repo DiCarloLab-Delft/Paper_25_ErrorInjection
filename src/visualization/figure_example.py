@@ -23,7 +23,7 @@ if __name__ == '__main__':
     @enforce_data_directory
     def get_tuids():
         return get_tuids_containing(
-            contains="Repeated stab meas 0 to 40 rounds ['D4', 'D1', 'D2'] qubits [0, 1, 0] state",
+            contains="Repcode",
             t_start=TUID.datetime("20250526-200454-747-e499bf"),
             t_stop=TUID.datetime("20250526-224530-511-a39031"),
         )
