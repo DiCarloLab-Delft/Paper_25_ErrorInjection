@@ -1,0 +1,39 @@
+# --- Public packages ---
+# General utility
+numpy
+scipy
+lmfit
+uncertainties
+xarray
+pandas
+tqdm
+scikit-learn
+multipledispatch
+pydantic
+deprecated
+
+# Configuration storage
+pyyaml
+
+# Visualization
+matplotlib
+seaborn
+
+# Data compiler
+h5py  # Read/Write hdf5 files
+flake8  # Required by CI
+
+# Unit testing
+coverage
+pytest
+
+# Supporting packages
+stim
+pymatching
+quantify-core
+xarray
+filelock
+
+# Personal (public) project dependencies
+git+https://github.com/MiniSean/QCoCircuits.git
+git+https://github.com/MiniSean/QECInterpreter.git
